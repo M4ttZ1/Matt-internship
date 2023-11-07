@@ -11,7 +11,7 @@ const TopSellers = () => {
       try {
         const response = await axios.get(
           "https://us-central1-nft-cloud-functions.cloudfunctions.net/topSellers"
-        );
+          );
         setNftArray(response.data);
       } catch (error) {
         console.error("Error fetching data:", error);
