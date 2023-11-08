@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
-    //Any comment
+    //FROM MAIN DO NOT REMOVE
     <section
       id="section-hero"
       aria-label="section"
