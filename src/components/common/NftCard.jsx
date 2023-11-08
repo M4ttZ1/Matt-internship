@@ -27,7 +27,7 @@ const NftCard = ({ nft }) => {
         </Link>
       </div>
       <div className="nft__item_info">
-        <Link to="/item-details">
+        <Link to={`/item-details/${nft?.nftId}`}>
           <h4>{nft?.title}</h4>
         </Link>
         <div className="nft__item_price">{`${nft?.price} ETH`}</div>
